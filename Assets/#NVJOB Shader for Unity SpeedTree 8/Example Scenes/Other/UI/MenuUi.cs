@@ -12,7 +12,7 @@ public class MenuUi : MonoBehaviour
     ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
     
 
-    public Button button0, button1, button2;
+    public Button button0, button1;
     public Text typeText;
     public GameObject nExample;
 
@@ -26,7 +26,6 @@ public class MenuUi : MonoBehaviour
 
         button0.onClick.AddListener(Button0);
         button1.onClick.AddListener(Button1);
-        button2.onClick.AddListener(Button2);
 
         //--------------
     }
@@ -63,16 +62,7 @@ public class MenuUi : MonoBehaviour
     {
         //--------------
 
-        SceneManager.LoadScene("Example 1 (Forward)", LoadSceneMode.Single);
-
-        //--------------
-    }
-
-    void Button2()
-    {
-        //--------------
-
-        SceneManager.LoadScene("Example 2 (Deferred)", LoadSceneMode.Single);
+        SceneManager.LoadScene("Example 1 (Deferred)", LoadSceneMode.Single);
 
         //--------------
     }

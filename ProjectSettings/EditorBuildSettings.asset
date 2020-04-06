@@ -9,4 +9,8 @@ EditorBuildSettings:
     path: Assets/#NVJOB Shader for Unity SpeedTree 8/Example Scenes/Scenes/Example
       0 (Deferred).unity
     guid: 153b8154be91faa499dc806dfb7516d3
+  - enabled: 1
+    path: Assets/#NVJOB Shader for Unity SpeedTree 8/Example Scenes/Scenes/Example
+      1 (Deferred).unity
+    guid: f0785a98e99fa3b49baf055d06d2f9fa
   m_configObjects: {}
