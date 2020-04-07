@@ -27,7 +27,7 @@ There is an example in this asset to understand the operation and settings.
 
 <strong>I recommend</strong> importing this asset into a new project. Study the operation of the asset and copy the components you need to your project.
 
-The trees (Broadleaf, Palm) used in the examples are taken from the - [Free SpeedTrees Package](https://assetstore.unity.com/packages/3d/vegetation/speedtree/free-speedtrees-package-29170)
+Trees (Broadleaf, Palm) used in the examples are standard examples from SpeedTree for Unity v8.x.
 
 <strong>Features:</strong><br>
 - Full wind setting.<br>
