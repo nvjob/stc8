@@ -1,7 +1,7 @@
 # #NVJOB Shader for Unity SpeedTree 8 (STC8) 3.1
 
-![GitHub Logo](https://nvjob.github.io/repo/unity%20assets/stc7/pic/0.jpg)
-![GitHub Logo](https://nvjob.github.io/repo/unity%20assets/stc7/pic/7.jpg)
+![GitHub Logo](https://nvjob.github.io/repo/unity%20assets/stc8/pic/0.jpg)
+![GitHub Logo](https://nvjob.github.io/repo/unity%20assets/stc8/pic/1.jpg)
 
 This is a shader for SpeedTree version 8.x for Unity.<br>
 The shader has advanced settings compared to the standard Unity shader for SpeedTree. The shader fully functions in Forward Rendering and Deferred Rendering (including Subsurface Emission).<br>
