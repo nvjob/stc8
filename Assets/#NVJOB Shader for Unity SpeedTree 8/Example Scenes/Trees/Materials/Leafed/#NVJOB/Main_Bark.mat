@@ -51,7 +51,7 @@ Material:
     - _BranchTwitch: 1
     - _BranchWhip: 1
     - _Brightness: 0.9
-    - _Contrast: 1.2
+    - _Contrast: 1.3
     - _Cull: 2
     - _Cutoff: 0.33333
     - _Glossiness: 0.577
@@ -68,7 +68,7 @@ Material:
     - _NormalMapKwToggle: 1
     - _OcclusionInts: 1
     - _OcclusionStrength: 1
-    - _Saturation: 0.8
+    - _Saturation: 0.7
     - _SmoothnessInts: 2
     - _SmoothnessStrength: 1.5
     - _SubsurfaceIndirect: 0.178
@@ -84,4 +84,4 @@ Material:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
     - _HueVariationColor: {r: 1, g: 0.5, b: 0, a: 0.1}
-    - _SubsurfaceColor: {r: 0.315, g: 0.29680875, b: 0.290745, a: 1}
+    - _SubsurfaceColor: {r: 0.3137255, g: 0.27126798, b: 0.25003922, a: 1}

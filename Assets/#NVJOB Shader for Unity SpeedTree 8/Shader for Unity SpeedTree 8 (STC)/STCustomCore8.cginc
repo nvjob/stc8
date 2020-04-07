@@ -546,8 +546,8 @@ v.color.g = saturate(hueVariationAmount * _HueVariationColor.a);
 half4 LightingSTCShaderSubsurface(inout SurfaceOutputStandard s, half3 viewDir, UnityGI gi){
 #ifdef EFFECT_SUBSURFACE
 half fSubsurfaceRough = 0.7 - s.Smoothness * 0.5;
+fSubsurfaceRough *= _SubsurfaceRough;
 half fSubsurface = GGXTerm(clamp(-dot(gi.light.dir, viewDir), 0, 1), fSubsurfaceRough);
-fSubsurface *= _SubsurfaceRough;
 s.Emission *= (gi.indirect.diffuse * _SubsurfaceIndirect + gi.light.color * fSubsurface);
 #endif
 return LightingStandard(s, viewDir, gi);
@@ -563,8 +563,8 @@ LightingStandard_GI(s, data, gi);
 half4 LightingSTCShaderSubsurface_Deferred(SurfaceOutputStandard s, half3 viewDir, UnityGI gi, out half4 outGBuffer0, out half4 outGBuffer1, out half4 outGBuffer2){
 #ifdef EFFECT_SUBSURFACE
 half fSubsurfaceRough = 0.7 - s.Smoothness * 0.5;
+fSubsurfaceRough *= _SubsurfaceRough;
 half fSubsurface = GGXTerm(clamp(-dot(gi.light.dir, viewDir), 0, 1), fSubsurfaceRough);
-fSubsurface *= _SubsurfaceRough;
 s.Emission *= (gi.indirect.diffuse * _SubsurfaceIndirect + fSubsurface);
 #endif
 return LightingStandard_Deferred(s, viewDir, gi, outGBuffer0, outGBuffer1, outGBuffer2);
