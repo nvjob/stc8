@@ -45,4 +45,4 @@ The trees (Broadleaf, Palm) used in the examples are taken from the - [Free Spee
 
 **License:** MIT License. Clarification of licenses - [nvjob.github.io/mit-license](https://nvjob.github.io/mit-license)
 
-**Support:** [nvjob.github.io/support](https://nvjob.github.io/support)
+**Support:** [nvjob.github.io/reportaproblem](https://nvjob.github.io/reportaproblem/)
