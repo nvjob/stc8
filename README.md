@@ -12,7 +12,8 @@ Using this shader, you can adjust the wind (speed, amplitude, swaying branches, 
 
 ### Full instructions
 
-Full instructions and description - [nvjob.github.io/unity/nvjob-stc-8](https://nvjob.github.io/unity/nvjob-stc-8)
+Full instructions and description - [nvjob.github.io/unity/nvjob-stc-8](https://nvjob.github.io/unity/nvjob-stc-8)<br>
+#NVJOB Shader for Unity SpeedTree 7 (STC7) - [nvjob.github.io/unity/nvjob-stc-7](https://nvjob.github.io/unity/nvjob-stc-7)
 
 ### Prerequisites
 
