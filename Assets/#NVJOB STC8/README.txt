@@ -1,4 +1,4 @@
-#NVJOB Shader for Unity SpeedTree 8 (STC8)
+#NVJOB STC8
 
 This is a shader for SpeedTree version 8.x for Unity. 
 The shader has advanced settings compared to the standard Unity shader for SpeedTree. 
@@ -15,6 +15,6 @@ Features:
 - Good performance.
 
 For Unity version of at least 2019.1.8 (64-bit)
-Current version 3.1
+Current version 3.2
 
 Full instructions and download examples - https://nvjob.github.io/unity/nvjob-stc-8

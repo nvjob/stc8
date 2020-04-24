@@ -1,6 +1,6 @@
 // Copyright (c) 2016 Unity Technologies. MIT license - license_unity.txt
-// #NVJOB shader for SpeedTree 8 (STC8). MIT license - license_nvjob.txt
-// #NVJOB shader for SpeedTree 8 (STC8) V3.1 - https://nvjob.github.io/unity/nvjob-stc-8
+// #NVJOB STC8. MIT license - license_nvjob.txt
+// #NVJOB STC8 V3.2 - https://nvjob.github.io/unity/nvjob-stc-8
 // #NVJOB Nicholas Veselov - https://nvjob.github.io
 
 
@@ -25,7 +25,7 @@ CBUFFER_START(STCShaderWind)
 float4 _ST_WindVector, _ST_WindGlobal, _ST_WindBranch, _ST_WindBranchTwitch, _ST_WindBranchWhip, _ST_WindBranchAnchor, _ST_WindBranchAdherences, _ST_WindTurbulences, _ST_WindLeaf1Ripple, _ST_WindLeaf1Tumble, _ST_WindLeaf1Twitch, _ST_WindLeaf2Ripple, _ST_WindLeaf2Tumble, _ST_WindLeaf2Twitch, _ST_WindFrondRipple, _ST_WindAnimation;
 CBUFFER_END
 
-uniform half _WindSpeed, _WindAmplitude, _WindDegreeSlope, _WindConstantTilt, _LeafRipple, _LeafRippleSpeed, _BranchRipple, _BranchRippleSpeed, _LeafTumble, _LeafTumbleSpeed, _BranchTwitch, _BranchWhip, _BranchTurbulences, _BranchForceHeaviness, _BranchHeaviness;
+uniform half _WindSpeed, _WindAmplitude, _WindDegreeSlope, _LeafRipple, _LeafRippleSpeed, _BranchRipple, _BranchRippleSpeed, _LeafTumble, _LeafTumbleSpeed, _BranchWhip, _BranchTurbulences, _BranchForceHeaviness, _BranchHeaviness;
 
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -335,14 +335,16 @@ void CustomWind() {
 _ST_WindGlobal.x *= _WindSpeed;
 _ST_WindGlobal.y *= _WindAmplitude;
 _ST_WindGlobal.z *= _WindDegreeSlope;
-_ST_WindBranchAdherences.x *= _WindConstantTilt;
 _ST_WindLeaf1Ripple.y *= _LeafRipple;
+_ST_WindLeaf2Ripple.y *= _LeafRipple;
 _ST_WindLeaf1Ripple.x *= _LeafRippleSpeed;
-_ST_WindLeaf1Tumble.yzw *= _LeafTumble;
+_ST_WindLeaf2Ripple.x *= _LeafRippleSpeed;
+_ST_WindLeaf1Tumble.yz *= _LeafTumble;
+_ST_WindLeaf2Tumble.yz *= _LeafTumble;
 _ST_WindLeaf1Tumble.x *= _LeafTumbleSpeed;
+_ST_WindLeaf2Tumble.x *= _LeafTumbleSpeed;
 _ST_WindBranch.y *= _BranchRipple;
 _ST_WindBranch.x *= _BranchRippleSpeed;
-_ST_WindBranchTwitch.x *= _BranchTwitch;
 _ST_WindBranchWhip.x *= _BranchWhip;
 _ST_WindTurbulences.x *= _BranchTurbulences;
 _ST_WindBranchAnchor.xyz *= float3(1, _BranchHeaviness, 1);

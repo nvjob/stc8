@@ -12,23 +12,8 @@ public class MenuUi : MonoBehaviour
     ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
     
 
-    public Button button0, button1;
     public Text typeText;
     public GameObject nExample;
-
-
-    ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-
-
-    void Awake()
-    {
-        //--------------
-
-        button0.onClick.AddListener(Button0);
-        button1.onClick.AddListener(Button1);
-
-        //--------------
-    }
 
 
     ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -40,29 +25,7 @@ public class MenuUi : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.Escape)) Application.Quit();
 
-        typeText.text = nExample.activeSelf ? "#NVJOB Shader for Unity SpeedTree 8" : "Standard Shader for Unity SpeedTree 8";
-
-        //--------------
-    }
-
-
-    ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-
-
-    void Button0()
-    {
-        //--------------
-
-        SceneManager.LoadScene("Example 0 (Deferred)", LoadSceneMode.Single);
-
-        //--------------
-    }
-
-    void Button1()
-    {
-        //--------------
-
-        SceneManager.LoadScene("Example 1 (Deferred)", LoadSceneMode.Single);
+        typeText.text = nExample.activeSelf ? "#NVJOB STC8" : "Standard Shader for SpeedTree 8";
 
         //--------------
     }

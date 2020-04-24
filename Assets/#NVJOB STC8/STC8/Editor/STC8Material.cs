@@ -1,6 +1,6 @@
 // Copyright (c) 2016 Unity Technologies. MIT license - license_unity.txt
-// #NVJOB shader for SpeedTree 8 (STC8). MIT license - license_nvjob.txt
-// #NVJOB shader for SpeedTree 8 (STC8) V3.1 - https://nvjob.github.io/unity/nvjob-stc-8
+// #NVJOB STC8. MIT license - license_nvjob.txt
+// #NVJOB STC8 V3.2 - https://nvjob.github.io/unity/nvjob-stc-8
 // #NVJOB Nicholas Veselov - https://nvjob.github.io
 
 
@@ -426,7 +426,6 @@ namespace UnityEditor
             MaterialProperty windSpeed = allProps.Find(prop => prop.name == "_WindSpeed");
             MaterialProperty windAmplitude = allProps.Find(prop => prop.name == "_WindAmplitude");
             MaterialProperty windDegreeSlope = allProps.Find(prop => prop.name == "_WindDegreeSlope");
-            MaterialProperty windConstantTilt = allProps.Find(prop => prop.name == "_WindConstantTilt");
 
             if (windSpeed != null)
             {
@@ -444,12 +443,6 @@ namespace UnityEditor
             {
                 allProps.Remove(windDegreeSlope);
                 if (windType >= 1) ShaderProperty(windDegreeSlope, windDegreeSlope.displayName);
-            }
-
-            if (windConstantTilt != null)
-            {
-                allProps.Remove(windConstantTilt);
-                if (windType >= 1) ShaderProperty(windConstantTilt, windConstantTilt.displayName);
             }
 
             if (windType >= 1 && billboard == false) DrawUILine(smLineColor, 1, smLinePadding);
@@ -489,7 +482,6 @@ namespace UnityEditor
 
             MaterialProperty branchRipple = allProps.Find(prop => prop.name == "_BranchRipple");
             MaterialProperty branchRippleSpeed = allProps.Find(prop => prop.name == "_BranchRippleSpeed");
-            MaterialProperty branchTwitch = allProps.Find(prop => prop.name == "_BranchTwitch");
             MaterialProperty branchWhip = allProps.Find(prop => prop.name == "_BranchWhip");
             MaterialProperty branchTurbulences = allProps.Find(prop => prop.name == "_BranchTurbulences");
             MaterialProperty branchForceHeaviness = allProps.Find(prop => prop.name == "_BranchForceHeaviness");
@@ -505,12 +497,6 @@ namespace UnityEditor
             {
                 allProps.Remove(branchRippleSpeed);
                 if (windType >= 3) ShaderProperty(branchRippleSpeed, branchRippleSpeed.displayName);
-            }
-
-            if (branchTwitch != null)
-            {
-                allProps.Remove(branchTwitch);
-                if (windType >= 3) ShaderProperty(branchTwitch, branchTwitch.displayName);
             }
 
             if (branchWhip != null)
@@ -552,7 +538,7 @@ namespace UnityEditor
             EditorGUILayout.Space();
             GUIStyle guiStyle = new GUIStyle();
             guiStyle.fontSize = 17;
-            EditorGUILayout.LabelField("#NVJOB Shader for SpeedTree 8 (v3.1)", guiStyle);
+            EditorGUILayout.LabelField("#NVJOB STC 8 (v3.2)", guiStyle);
             DrawUILine(bgLineColor, 2, bgLinePadding);
 
             //--------------
@@ -567,10 +553,8 @@ namespace UnityEditor
             //--------------
 
             DrawUILine(bgLineColor, 2, bgLinePadding);
-            if (GUILayout.Button("Download Examples")) Help.BrowseURL("https://github.com/nvjob/stc8/archive/master.zip");
             if (GUILayout.Button("Description and Instructions")) Help.BrowseURL("https://nvjob.github.io/unity/nvjob-stc-8");
-            if (GUILayout.Button("Patrons and Donations")) Help.BrowseURL("https://nvjob.github.io/patrons");
-            EditorGUILayout.TextArea("This asset exists only thanks to your donations. Help this asset and it will continue to exist and be updated.", EditorStyles.textArea);
+            if (GUILayout.Button("#NVJOB Store")) Help.BrowseURL("https://nvjob.github.io/store/");
             DrawUILine(bgLineColor, 2, bgLinePadding);
 
             //--------------
