@@ -30,7 +30,7 @@ There is an example in this asset to understand the operation and settings.
 Trees (Broadleaf, Palm) used in the examples are standard examples from SpeedTree for Unity v8.x.
 
 <strong>Features:</strong><br>
-- Full wind setting.<br>
+- Wind setting.<br>
 - Advanced settings for visualization of vegetation.<br>
 - Support for all functions in Forward Rendering and Deferred Rendering.<br>
 - Good performance.
