@@ -35,9 +35,11 @@ Trees (Broadleaf, Palm) used in the examples are standard examples from SpeedTre
 - Support for all functions in Forward Rendering and Deferred Rendering.<br>
 - Good performance.
 
+-------------------------------------------------------------------
+
 ![GitHub Logo](https://nvjob.github.io/repo/unity%20assets/stc8/compare.png)
 
-#NVJOB STC8 Pro - [nvjob.github.io/unity/nvjob-stc-8-pro](https://nvjob.github.io/unity/nvjob-stc-8-pro)
+<strong>#NVJOB STC8 Pro</strong> - [nvjob.github.io/unity/nvjob-stc-8-pro](https://nvjob.github.io/unity/nvjob-stc-8-pro)
 
 -------------------------------------------------------------------
 
