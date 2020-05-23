@@ -43,13 +43,12 @@ Trees (Broadleaf, Palm) used in the examples are standard examples from SpeedTre
 
 -------------------------------------------------------------------
 
-**Patrons:** [nvjob.github.io/patrons](https://nvjob.github.io/patrons)<br>
-*You can become one of the patrons, or make a sponsorship donation.*
+**Authors:** <br>
+[#NVJOB. Nicholas Veselov Unity Developer.](https://nvjob.github.io)<br>
+[Николай Веселов Unity Разработчик Санкт-Петербург.](https://nvjob.github.io)
 
--------------------------------------------------------------------
+**License:** <br>
+[MIT License. Clarification of licenses.](https://nvjob.github.io/mit-license)
 
-**Authors:** [#NVJOB. Developer Nicholas Veselov. Разработчик Николай Веселов. Санкт-Петербург.](https://nvjob.github.io)
-
-**License:** MIT License. [Clarification of licenses](https://nvjob.github.io/mit-license).
-
-**Support:** [Report a Problem](https://nvjob.github.io/reportaproblem/).
+**Support:** <br>
+[Report a Problem.](https://nvjob.github.io/reportaproblem/)
