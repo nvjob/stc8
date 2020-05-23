@@ -17,7 +17,7 @@ Full instructions and description - [nvjob.github.io/unity/nvjob-stc-8](https://
 
 ### Prerequisites
 
-To work on the project, you will need a Unity version of at least 2019.1.8 (64-bit).
+To work on the project, you will need a Unity version of at least 2019.1.8 (Only Built-in Render Pipeline).
 
 ### Information
 
