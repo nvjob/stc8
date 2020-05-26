@@ -1,25 +1,10 @@
 # #NVJOB STC8 v3.2 (Custom shader for Unity SpeedTree 8)
 
-![GitHub Logo](https://nvjob.github.io/repo/unity%20assets/stc8/pic/0.jpg)
-![GitHub Logo](https://nvjob.github.io/repo/unity%20assets/stc8/pic/1.jpg)
-![GitHub Logo](https://nvjob.github.io/repo/unity%20assets/stc8/pic/7.jpg)
+### Information
 
 This is a shader for SpeedTree version 8.x for Unity.<br>
 The shader has advanced settings compared to the standard Unity shader for SpeedTree. The shader fully functions in Forward Rendering and Deferred Rendering (including Subsurface Emission).<br>
 Using this shader, you can adjust the wind (speed, amplitude, swaying branches, etc.). The wind settings in the shader, allow you to fix incorrectly configured wind settings in SpeedTree, as well as synchronize and adjust the wind for all vegetation separately.
-
--------------------------------------------------------------------
-
-### Full instructions
-
-Full instructions and description - [nvjob.github.io/unity/nvjob-stc-8](https://nvjob.github.io/unity/nvjob-stc-8)<br>
-#NVJOB STC7 - [nvjob.github.io/unity/nvjob-stc-7](https://nvjob.github.io/unity/nvjob-stc-7)
-
-### Prerequisites
-
-To work on the project, you will need a Unity version of at least 2019.1.8 (Only Built-in Render Pipeline).
-
-### Information
 
 <strong>Attention!</strong> The speed of shader compilation when importing into a project depends on the power of your CPU in your PC. Initial compilation can take a lot of time, so wait for compilation, the shader is large and complex.
 On the processor level i3-8100, i5-6600, AMD Ryzen 5 1400, compilation time will take more than 2 minutes.
@@ -27,19 +12,20 @@ There is an example in this asset to understand the operation and settings.
 
 <strong>I recommend</strong> importing this asset into a new project. Study the operation of the asset and copy the components you need to your project.
 
-Trees (Broadleaf, Palm) used in the examples are standard examples from SpeedTree for Unity v8.x.
+Full instructions and description - [nvjob.github.io/unity/nvjob-stc-8](https://nvjob.github.io/unity/nvjob-stc-8)<br>
+#NVJOB STC8 Pro - [nvjob.github.io/unity/nvjob-stc-8-pro](https://nvjob.github.io/unity/nvjob-stc-8-pro)<br>
+#NVJOB STC7 - [nvjob.github.io/unity/nvjob-stc-7](https://nvjob.github.io/unity/nvjob-stc-7)
 
-<strong>Features:</strong><br>
+### Features:
 - Wind setting.<br>
 - Advanced settings for visualization of vegetation.<br>
 - Support for all functions in Forward Rendering and Deferred Rendering.<br>
 - Good performance.
 
--------------------------------------------------------------------
+### Compatibility
 
-![GitHub Logo](https://nvjob.github.io/repo/unity%20assets/stc8/compare.png)
-
-<strong>#NVJOB STC8 Pro</strong> - [nvjob.github.io/unity/nvjob-stc-8-pro](https://nvjob.github.io/unity/nvjob-stc-8-pro)
+Built-in Render Pipeline.<br>
+For Unity version of at least 2019.1.8 (64-bit).
 
 -------------------------------------------------------------------
 
@@ -52,3 +38,10 @@ Trees (Broadleaf, Palm) used in the examples are standard examples from SpeedTre
 
 **Support:** <br>
 [Report a Problem.](https://nvjob.github.io/reportaproblem/)
+
+-------------------------------------------------------------------
+
+![GitHub Logo](https://nvjob.github.io/repo/unity%20assets/stc8/compare.png)
+![GitHub Logo](https://nvjob.github.io/repo/unity%20assets/stc8/pic/0.jpg)
+![GitHub Logo](https://nvjob.github.io/repo/unity%20assets/stc8/pic/1.jpg)
+![GitHub Logo](https://nvjob.github.io/repo/unity%20assets/stc8/pic/7.jpg)
