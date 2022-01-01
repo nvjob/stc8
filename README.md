@@ -36,9 +36,6 @@ For Unity version of at least 2019.1.8 (64-bit).
 **License:** <br>
 [MIT License. Clarification of licenses.](https://nvjob.github.io/mit-license)
 
-**Sorry:** <br>
-This project is currently frozen and cannot be supported or updated due to its complete non-profitability.
-
 -------------------------------------------------------------------
 
 ![GitHub Logo](https://nvjob.github.io/repo/unity%20assets/stc8/compare.png)
